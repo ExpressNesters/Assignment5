@@ -12,7 +12,7 @@
 
 
 ## Software Tooling 
-[GithubActions](https://github.com/SanjayBhargavKudupudi/Cal/tree/main/.github/workflows)
+[GithubActions](https://github.com/ExpressNesters/Assignment5/tree/main/.github/workflows)
 
 ## Application 
 We have taken our chat application-2 from previous assignment which uses Go for Backend and Svelte JS for Frontend
