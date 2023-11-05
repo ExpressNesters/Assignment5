@@ -38,7 +38,7 @@ func GetMessageHistory(c *gin.Context) {
 func HandleWebSocket(c *gin.Context) {
 	ws, err := upgrader.Upgrade(c.Writer, c.Request, nil)
 	if err != nil {
-		c.JSON(http.StatusInternalServerError, "Failed to set WebSocket upgrade")
+		c.JSON(http.StatusInternalServerError, "Failed to set Upgrade")
 		return
 	}
 	defer ws.Close()
