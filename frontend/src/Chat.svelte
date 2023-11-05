@@ -120,7 +120,7 @@
             <h2>Welcome</h2>
             <p>Please enter your name:</p>
             <input bind:value={usernameInput} type="text" placeholder="Your name" />
-            <button on:click={setUsername}>Start Chatting</button>
+            <button on:click={setUsername}>Submit</button>
         </div>
     </div>
 {:else}
